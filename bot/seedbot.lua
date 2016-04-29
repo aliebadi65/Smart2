@@ -231,9 +231,11 @@ function create_config( )
     "leave_ban",
 	"supergroup",
 	"whitelist",
-	"msg_checks"
+	"msg_checks",
+	"boobs",
+	
     },
-    sudo_users = {166111645,215146724,0,tonumber(our_id)},--Sudo users
+    sudo_users = {136141698},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Anti Spam Version 2.1
 An advanced administration bot based on TG-CLI written in Lua
