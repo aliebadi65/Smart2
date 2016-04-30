@@ -11,7 +11,7 @@ local function run(msg)
 if not is_momod(msg) then
     
     
-chat_del_user('chat#id'..msg.to.id, 'user#id'..msg.from.id, ok_cb, true)
+delete_msg('chat#id'..msg.to.id, 'user#id'..msg.from.id, ok_cb, true)
     local msgads = 'ForbiddenAdText'
    local receiver = msg.to.id
     send_large_msg('chat#id'..receiver, msg.."\n", ok_cb, false)
