@@ -1,5 +1,3 @@
---by @Hextor_ch
-
 OK=0
 BAD=0
 NONVOLUNTARY=1
@@ -7,7 +5,7 @@ NONVOLUNTARYCHECK=0
 VOLUNTARY=1
 VOLUNTARYCHECK=0
 I=1
-BOT=telesmart 
+BOT=Smart2
 RELOADTIME=15
 
 
@@ -526,8 +524,3 @@ echo ""
       ;;
   esac
 done
-
-
-
-
---by @Hextor_ch
